@@ -1,0 +1,318 @@
+     @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+                
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(210, 235, 235);
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#199155,#3c61bc);
+    
+  
+
+}
+
+nav img{
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+nav img:hover{
+    transform: scale();
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align:center;
+    padding-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px ;
+    padding: 10px;
+    font-size: larger;
+    
+    
+}
+
+nav ul li a{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: x-large;
+      
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.media{
+   margin: 2%;
+   background-color: brown
+   ;
+}
+.left-text{
+      margin: 20%;
+}
+.tree img{
+   margin: 20%;
+   
+    
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.po{
+    color: #199155;
+    padding: 20px;
+    font-size:xx-large;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(210, 235, 235);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Navigation Bar */
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #199155, #3c61bc);
+}
+
+nav img {
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/* Logo hover effect */
+nav img:hover {
+    transform: scale(1.1); /* Slight scaling effect */
+    transition: 0.3s ease-in-out;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 50px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: larger;
+}
+
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: x-large;
+}
+nav ul li a:hover{
+    color: rgb(95, 252, 5);
+}
+.main {
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap and stay in one page */
+    align-items: center;
+    justify-content: space-around; /* Space between elements */
+    padding: 20px;
+    max-width: 100vw;
+    min-height: calc(100vh - 80px); /* Adjust to fit one page */
+    font-family: 'Ubuntu';
+}
+
+/* Media Section */
+.media {
+    padding: 10px;
+    color: white;
+    flex-basis: 30%; /* Adjust width */
+    min-width: 250px; /* Ensures it doesn’t shrink too small */
+}
+
+/* Text Section */
+.left-text {
+    padding: 20px;
+    max-width: 650px; /* Limit the width */
+    font-family: 'Ubuntu';
+}
+
+.left-text .po {
+    color: #199155;
+    font-size: 28px;
+}
+
+.left-text button {
+    background-color: #199155;
+    color: white;
+    height: 50px;
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.left-text button:hover {
+    background-color: #145f34;
+    
+}
+
+/* Bottom Section with Two Boxes */
+.bottem {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Makes the bottom sections responsive */
+    margin-top: 20px;
+    align-items: center;
+    flex-basis: 50% 50%;
+    
+}
+
+.bottem .left,
+.bottem .right {
+
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 5px;
+    align-items: center;
+
+    h2{
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+}
+
+/* Tree Image */
+.tree img {
+    max-width: 100%; /* Makes sure it fits the container */
+    height: auto;
+    margin: 20px;
+    flex-basis: 30%; /* Adjust width */
+    min-width: 250px;
+}
+.icon{
+    display:flex;
+    flex-direction: column;
+}
+.icon li{
+   list-style: none;
+   size: 5px;
+   margin: 50px;
+}
+
+.icon ul li .fab{
+    font-size: 35px;
+    color: #145f34;
+}
+.icon ul li .fab:hover{
+    transform: scale(130%);
+    color: #199155;
+}
+
+.left{
+   background-color:#23dd80 ;
+   border:#145f34 2px solid;
+}
+.right{
+    background-color:#23dd80 ;
+    border:#145f34 2px solid;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: large;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+    margin-bottom: 15px;
+    font-size: 23px;
+    color: #f0db4f;
+}
+
+.footer-container p,
+.footer-container ul {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-center ul li a:hover {
+    text-decoration: underline;
+    color: #4fa172;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #222;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

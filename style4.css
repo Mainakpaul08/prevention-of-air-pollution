@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Ubuntu';
+}
+
+body {
+    color: #333;
+    background-color: #f8f8f8;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav button {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e8f5e9;
+    font-family: 'Ubuntu';
+    
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #2e7d32;
+    font-family: 'Ubuntu';
+}
+
+.hero .highlight {
+    color: #1b5e20;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.stat-box {
+    background-color: #c8e6c9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #2e7d32;
+}
+
+.call-to-action {
+    background-color: #a5d6a7;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    margin: 30px 0;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.faq-item {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    font-size: 1.1em;
+    color: #2e7d32;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gallery {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#first{
+    height: 250px;
+}
